@@ -23,6 +23,7 @@ header{
 p{
 	margin: 20px auto;
 	max-width: 450px;
+	text-align: center;
 }
 ul{
 	padding: 20px 0 0 0;
@@ -48,6 +49,8 @@ li a{
 	font-weight: bold;
 	text-decoration: none;
 	cursor: pointer;
+	margin-top: 15px;
+	transition: all ease .5s;
 }
 li a:hover{
 	color: #f98208;
@@ -56,17 +59,29 @@ li a:hover{
 	background: #000;
 	padding: 10px;
 }
+.react a {
+	color:#81d4eb;
+}
 .angular{
 	background: #adefff;
 	padding: 10px;
+}
+.angular a {
+	color:#1e2838;
 }
 .jquery{
 	background: #1e2838;
 	padding: 10px;
 }
+.jquery a {
+	color:#5dc2da;
+}
 .wordpress{
 	background: #fff;
 	padding: 10px;
+}
+.wordpress a {
+	color:#5690ab;
 }
 
 @media only screen and (min-width: 800px){
